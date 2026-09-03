@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: fc2-notes-server
+    runtime: node
+    region: singapore
+    plan: free
+    buildCommand: npm install
+    startCommand: node notes_server.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: ALLOW_ORIGIN
+        value: '*'
+      - key: NODE_ENV
+        value: production

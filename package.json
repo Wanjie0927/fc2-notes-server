@@ -1,0 +1,13 @@
+{
+  "name": "fc2-notes-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "预测转单2 看板备注共享后端（零依赖 Node HTTP 服务）",
+  "main": "notes_server.js",
+  "scripts": {
+    "start": "node notes_server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

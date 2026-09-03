@@ -1,0 +1,4 @@
+notes_db.json
+*.log
+node_modules/
+.env
